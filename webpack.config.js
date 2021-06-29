@@ -22,6 +22,7 @@ const htmlPluginEntries = templateFiles.map((template) => new HTMLWebpackPlugin(
   filename: template,
   template: path.resolve(environment.paths.source, template),
   favicon: path.resolve(environment.paths.source, 'images', 'favicon.ico'),
+  apple: path.resolve(environment.paths.source, 'images', 'apple-touch-icon.png'),
 }));
 
 module.exports = {
@@ -116,6 +117,14 @@ module.exports = {
           from: path.resolve(environment.paths.source, 'images', 'design'),
           to: path.resolve(environment.paths.output, 'images', 'design'),
           toType: 'dir',
+          globOptions: {
+            ignore: ['*.DS_Store', 'Thumbs.db'],
+          },
+        },
+        {
+          from: path.resolve(environment.paths.source, 'images', 'apple-touch-icon.png'),
+          to: path.resolve(environment.paths.output, 'apple-touch-icon.png'),
+          toType: 'file',
           globOptions: {
             ignore: ['*.DS_Store', 'Thumbs.db'],
           },
