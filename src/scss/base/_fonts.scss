@@ -3,9 +3,21 @@
 */
 
 @font-face {
-  font-family: 'DINP-R';
-  src: url("../fonts/DINPro-Regular.eot?") format("eot"),
-  url("../fonts/DINPro-Regular.woff") format("woff"),
-  url("../fonts/DINPro-Regular.ttf") format("truetype");
+  font-family: 'fuse-regular';
+  src: url('../fonts/w_foundry_-_fusev.2text-regular-webfont.woff2') format('woff2'),
+  url('../fonts/w_foundry_-_fusev.2text-regular-webfont.woff') format('woff');
+  font-weight: normal;
   font-style: normal;
+
 }
+
+@font-face {
+  font-family: 'fuse-black';
+  src: url('../fonts/w_foundry_-_fusev.2display-black-webfont.woff2') format('woff2'),
+  url('../fonts/w_foundry_-_fusev.2display-black-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+

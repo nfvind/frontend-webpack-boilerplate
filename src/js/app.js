@@ -4,3 +4,5 @@ import '../scss/app.scss';
 
 /* Demo JS */
 import './demo.js';
+import 'bootstrap/scss/bootstrap.scss';
+import 'bootstrap';
