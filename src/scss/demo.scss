@@ -5,7 +5,7 @@ main {
   padding: 40px;
   width: 90%;
 &.lp{
-
+border-radius: 15px;
   width: auto;
   margin: auto;
   padding:initial;
@@ -69,6 +69,9 @@ main {
   a{
     color:#009b41;
   }
+  ol{
+    line-height: 2;
+  }
   p,li,label,span{
     font-family: 'fuse-regular';
     color:#898989;
@@ -89,8 +92,8 @@ main {
   right: 4%;
   z-index: 10;
   background-color: #fff;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
   box-shadow: 0 0 10px 0 rgb(0 0 0 / 20%);
   display: none;
 }
